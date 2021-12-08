@@ -17,9 +17,9 @@
   --primary-black-color: #000000;
   --footer-secondary-color: rgba(255, 255, 255, 0.6);
   --bg-main-color: #2f303a;
-  --button-bg-color:#F5F4FA;
-  --border-filter-box:#EEEEEE;
-  --border-bottom-for-nav:#ECECEC;
+  --button-bg-color: #f5f4fa;
+  --border-filter-box: #eeeeee;
+  --border-bottom-for-nav: #ececec;
 }
 
 html {
@@ -34,7 +34,12 @@ html {
   padding: 94px 0;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0px;
   padding: 0px;
 }
@@ -80,7 +85,7 @@ ul {
   display: flex;
   margin-left: 70px;
 }
-.nav-unit:not(:last-child){
+.nav-unit:not(:last-child) {
   margin-right: 40px;
 }
 .nav-unit {
@@ -94,10 +99,10 @@ ul {
 .nav-unit a:focus {
   color: var(--accent-txt-color);
 }
-header ul{
+header ul {
   font-weight: 500;
 }
-header .contact:hover,  
+header .contact:hover,
 header .contact:focus {
   color: var(--accent-txt-color);
 }
@@ -106,7 +111,7 @@ header .contact {
   text-decoration: none;
 }
 
-.nav-unit .current{
+.nav-unit .current {
   color: var(--accent-txt-color);
 }
 
@@ -117,7 +122,6 @@ header .contact {
 .header-contacts .contact-unit + .contact-unit {
   margin-left: 15px;
 }
-
 
 /* header end */
 
@@ -175,8 +179,8 @@ header .contact {
   width: 270px;
 }
 
-.ocupation-list{
-  display:flex;
+.ocupation-list {
+  display: flex;
 }
 .ocupation-unit:not(:last-child) {
   margin-right: 30px;
@@ -199,7 +203,7 @@ header .contact {
   padding-bottom: 50px;
 }
 
-.ocupation-title.title{
+.ocupation-title.title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -214,7 +218,6 @@ header .contact {
 .team-unit:not(:last-child) {
   margin-right: 30px;
 }
-
 
 .team .title {
   font-size: 36px;
@@ -235,10 +238,11 @@ header .contact {
   padding-top: 30px;
   padding-bottom: 10px;
 }
-.team-unit{
+.team-unit {
   text-align: center;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-unit .position {
@@ -251,7 +255,6 @@ header .contact {
 
 footer {
   background-color: var(--bg-main-color);
-
 }
 
 footer .logo {
@@ -276,8 +279,8 @@ address .map-mark {
 address .map-mark:hover,
 address .map-mark:focus,
 address .contact:hover,
-address .contact:focus{
-    color: var(--accent-txt-color);
+address .contact:focus {
+  color: var(--accent-txt-color);
 }
 address .contact {
   color: var(--footer-secondary-color);
@@ -288,8 +291,7 @@ address .contact {
 /* portfolio */
 
 .filter-buttons,
-.filter-list
- {
+.filter-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -297,11 +299,11 @@ address .contact {
 .filter-buttons {
   padding-bottom: 34px;
 }
-.filter-buttons li:not(:last-child){
+.filter-buttons li:not(:last-child) {
   margin-right: 8px;
 }
 .filter-list {
-  margin:-15px;
+  margin: -15px;
 }
 .list-unit {
   border: 1px solid var(--border-filter-box);
@@ -324,7 +326,7 @@ address .contact {
 /* portfolio end */
 
 .visually-hidden,
-.visually-hidden.title{
+.visually-hidden.title {
   position: absolute;
   white-space: nowrap;
   width: 1px;
