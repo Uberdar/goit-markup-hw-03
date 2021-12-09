@@ -86,7 +86,6 @@ header {
 .nav {
   display: flex;
   align-items: center;
-  
 }
 
 .site-nav {
@@ -151,6 +150,7 @@ header .contact {
   line-height: 1.36;
   font-size: 44px;
   font-weight: 900;
+  text-transform: uppercase;
 }
 .button {
   color: var(--title-txt-color);
@@ -263,19 +263,22 @@ header .contact {
 
 /* footer */
 
-footer {
+.footer {
   background-color: var(--bg-main-color);
+  padding: 60px 0px;
 }
 
 footer .logo {
   color: var(--primary-white-color);
-  padding-top: 60px;
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 .footer-contacts {
   line-height: 1.71;
-  padding: 20px 0px 60px 0px;
+}
+.footer-contacts li {
+  margin-bottom: 9px;
 }
 .footer-contacts a {
   text-decoration: none;
