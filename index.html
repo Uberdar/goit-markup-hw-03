@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="container">
+    <header class="header">
+      <div class="container">
       <nav class="nav">
         <a href="./index.html" class="logo"
           ><span class="logo-accent">Web</span>Studio</a
@@ -32,28 +33,32 @@
           <li class="nav-unit"><a href="./portfolio.html">Портфолио</a></li>
           <li class="nav-unit"><a href="#">Контакты</a></li>
         </ul>
-        <ul class="header-contacts">
-          <li class="contact-unit">
-            <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-          <li class="contact-unit">
-            <a class="contact" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
       </nav>
+      <ul class="header-contacts">
+        <li class="contact-unit">
+          <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+        <li class="contact-unit">
+          <a class="contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+    </div>
     </header>
 
-    <main class="container">
-      <section class="business-solutions">
+    <main>
+      <section class="business-solutions section">
+        <div class="container">
         <h1 class="main-header">Эффeктивные решения<br />для вашего бизнеса</h1>
         <button class="main-button button" type="button">
           Заказать услугу
         </button>
+      </div>
       </section>
 
       <section class="ocupation section">
+        <div class="container">
         <h2 class="visually-hidden title">Род занятий</h2>
         <ul class="ocupation-list">
           <li class="ocupation-unit">
@@ -85,8 +90,10 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <section class="ocupation-pics section">
+        <div class="container">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="ocupation-pics-block">
           <li>
@@ -111,36 +118,48 @@
             />
           </li>
         </ul>
+      </div>
       </section>
 
       <section class="team section">
+        <div class="container">
         <h2 class="title">Наша команда</h2>
         <ul class="team-list">
           <li class="team-unit">
             <img src="./images/index/unitone.jpg" alt="worker" width="270" />
+            <div class="content-team-box">
             <h3 class="title unit-name">Игорь Демьяненко</h3>
             <p class="position">Product Designer</p>
+          </div>
           </li>
           <li class="team-unit">
             <img src="./images/index/unittwo.jpg" alt="worker" width="270" />
+            <div class="content-team-box">
             <h3 class="title unit-name">Ольга Репина</h3>
             <p class="position">Frontend Developer</p>
+          </div>
           </li>
           <li class="team-unit">
             <img src="./images/index/unitthree.jpg" alt="worker" width="270" />
+            <div class="content-team-box">
             <h3 class="title unit-name">Николай Тарасов</h3>
             <p class="position">Marketing</p>
+          </div>
           </li>
           <li class="team-unit">
             <img src="./images/index/unitfour.jpg" alt="worker" width="270" />
+            <div class="content-team-box">
             <h3 class="title unit-name">Михаил Ермаков</h3>
             <p class="position">UI Designer</p>
+          </div>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
-    <footer class="container">
+    <footer>
+      <div class="container">
       <a href="./index.html" class="logo"
         ><span class="logo-accent">Web</span>Studio</a
       >
@@ -159,6 +178,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>

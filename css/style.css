@@ -76,11 +76,19 @@ ul {
 .logo .logo-accent {
   color: var(--accent-txt-color);
 }
+header {
+  border-bottom: 1px solid var(--border-bottom-for-nav);
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
 .nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--border-bottom-for-nav);
+  
 }
+
 .site-nav {
   display: flex;
   margin-left: 70px;
@@ -88,12 +96,11 @@ ul {
 .nav-unit:not(:last-child) {
   margin-right: 40px;
 }
-.nav-unit {
-  padding: 32px 0px;
-}
 .nav-unit a {
+  display: inline-block;
   color: var(--title-txt-color);
   text-decoration: none;
+  padding: 32px 0px;
 }
 .nav-unit a:hover,
 .nav-unit a:focus {
@@ -139,7 +146,6 @@ header .contact {
 }
 .main-header {
   text-align: center;
-  padding-top: 200px;
   padding-bottom: 30px;
   color: var(--primary-white-color);
   line-height: 1.36;
@@ -161,7 +167,7 @@ header .contact {
 
 .main-button.button {
   padding: 10px 32px;
-  margin-bottom: 200px;
+  margin-right: 0;
 }
 
 .main-button.button,
@@ -169,6 +175,10 @@ header .contact {
 .button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-txt-color);
+}
+
+.business-solutions.section {
+  padding: 200px 0px;
 }
 
 .text {
@@ -200,14 +210,14 @@ header .contact {
   /* line height 42 / font size 36 = ~1.17 */
   line-height: 1.17;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .ocupation-title.title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .team {
   background-color: var(--button-bg-color);
@@ -227,16 +237,17 @@ header .contact {
 }
 
 .team h2 {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
-
+.content-team-box {
+  padding: 30px 0px;
+}
 .team-unit .title.unit-name {
   font-size: 16px;
   font-weight: 500;
   /* 19 / 16 ~1.19 */
   line-height: 1.19;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .team-unit {
   text-align: center;
@@ -248,7 +259,6 @@ header .contact {
 .team-unit .position {
   font-size: 16px;
   line-height: 1.19;
-  padding-bottom: 30px;
 }
 
 /* footer */
@@ -297,7 +307,7 @@ address .contact {
   justify-content: center;
 }
 .filter-buttons {
-  padding-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-buttons li:not(:last-child) {
   margin-right: 8px;
@@ -310,17 +320,19 @@ address .contact {
   width: 370px;
   margin: 15px;
 }
+.list-unit-content {
+  padding: 20px 24px;
+}
 .list-unit h2 {
   color: var(--title-txt-color);
   font-size: 18px;
   line-height: 1.71;
-  padding: 20px 0px 4px 24px;
+  margin-bottom: 4px;
 }
 
 .list-unit p {
   font-size: 16px;
   line-height: 1.6;
-  padding: 0px 0px 20px 24px;
 }
 
 /* portfolio end */
